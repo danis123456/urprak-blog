@@ -21,7 +21,7 @@ function Blog() {
 
   return (
     <div className="bg-slate-900 p-20">
-        <div className="flex flex-wrap w-full gap-4">
+        <div className="flex flex-wrap justify-center gap-4">
             {data.map((item) => (
                 <div key={item.id} className="flex flex-col gap-4 w-96 bg-slate-700 rounded-md p-2">
                     <h1 className="text-slate-100 font-bold text-2xl">{item.title}</h1>
