@@ -20,10 +20,11 @@ function Blog() {
   }, []);
 
   return (
-    <div className="bg-slate-900 p-20">
+    <div className="bg-slate-900 p-9">
         <div className="flex flex-wrap justify-center gap-4">
             {data.map((item) => (
                 <div key={item.id} className="flex flex-col gap-4 w-96 bg-slate-700 rounded-md p-2">
+                    <img src="src/assets/icon/hero/YouTube banner🏞.jpg" alt="Deskripsi" />
                     <h1 className="text-slate-100 font-bold text-2xl">{item.title}</h1>
                     <p className="text-slate-300">{item.body}</p>
                 </div>
